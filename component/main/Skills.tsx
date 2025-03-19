@@ -1,7 +1,4 @@
 import {
-    Backend_skill,
-    Frontend_skill,
-    Full_stack,
     ML,
     language,
     Skill_data,
@@ -9,7 +6,7 @@ import {
   import React from "react";
   import SkillDataProvider from "../sub/SkillDataProvider";
   import SkillText from "../sub/SkillText";
-import { lang } from "@/constants";
+
   
   const Skills = () => {
     return (

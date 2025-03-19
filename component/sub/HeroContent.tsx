@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import {
   slideInFromLeft,
   slideInFromRight,
-  slideInFromTop,
+  
 } from "@/utilis/motion";
 
 import Image from "next/image";
