@@ -5,7 +5,6 @@ import Projects from "@/component/main/Projects";
 import Skills from "@/component/main/Skills";
 
 
-import Image from "next/image";
 
 
 export default function Home() {

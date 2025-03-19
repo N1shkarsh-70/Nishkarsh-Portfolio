@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import StarsCanvas from '@/component/main/StarBackground'
+
 import "./globals.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} bg-[#060606]`}
       >
         {children}
-        {/* <StarsCanvas /> */}
+        
       </body>
     </html>
   );
